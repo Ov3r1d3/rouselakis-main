@@ -17,7 +17,6 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
@@ -29,5 +28,15 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer base {
+  body {
+    @apply dark:bg-[#0a0a0a] 
+        bg-[#edf6f9];
+    
+    @apply dark:text-gray-300
+        text-gray-600
   }
 }
