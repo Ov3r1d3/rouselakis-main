@@ -34,7 +34,7 @@ export const YannisRouselakis = {
     name: 'Dr. Yannis Rouselakis',
     jobTitle: 'Senior Cryptographic Developer, NTT Research',
     websiteUrl: 'https://y.rouselakis.com',
-    description: "I am a cryptographer with primary research interests in pairing-based cryptography, identity- and attribute-based based encryption. I am also interested in Quantum Computing, Computational Complexity, and Algorithms.",
+    description: "Passionate cryptographer and software developer currently contributing as a member of the Technology Promotion Group at NTT Research. Within this dynamic collective, our primary focus revolves around advancing and promoting Attribute-Based Encryption (ABE), a cutting-edge field that holds the key to transforming the landscape of secure data transmission.",
     socials: [
         {
             icon: faLinkedin,

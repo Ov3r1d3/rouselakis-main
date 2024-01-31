@@ -44,7 +44,7 @@ const ProfileCard = ({ person }: ProfileCardProps) => {
             </p>
             <p className="pt-2 font-bold flex items-center justify-center lg:justify-start">
               Website:
-              <span className="ml-2 text-red-700">{person.websiteUrl}</span>
+              <span className="ml-2 text-red-700">{person.websiteUrl.replace(/^https?:\/\//, '')}</span>
             </p>
             <p className="pt-4 whitespace-break-spaces text-justify text-sm lg:text-base">
               {person.description}
