@@ -11,7 +11,7 @@ export default function Home() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <main className="flex min-h-screen flex-col gap-4 px-4 md:flex-row items-center justify-between">
+    <main className="flex flex-col min-h-screen gap-20 px-4 items-center justify-center">
       <ProfileCard person={YannisRouselakis} />
       <ProfileCard person={SteliosRouselakis} />
       <div

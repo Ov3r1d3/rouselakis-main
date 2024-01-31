@@ -25,10 +25,10 @@ type ProfileCardProps = {
 const ProfileCard = ({ person }: ProfileCardProps) => {
   const { push } = useRouter();
   return (
-    <div className="max-w-3xl flex items-center h-auto lg:h-screen flex-wrap mx-auto mt-28 lg:my-0">
+    <div className="max-w-3xl flex items-center  flex-wrap mx-auto mt-28 lg:my-0">
       <div
         id="profile"
-        className="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl dark:bg-gray-700 bg-white mx-6 lg:mx-0"
+        className="w-full lg:w-3/5 rounded-lg shadow-2xl dark:bg-gray-700 bg-white mx-6 lg:mx-0"
       >
         <div className="p-5 md:p-8 text-center lg:text-left">
           <Link href={person.websiteUrl}>
