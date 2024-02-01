@@ -31,7 +31,7 @@ export const SteliosRouselakis = {
 }
 
 export const YannisRouselakis = {
-    name: 'Dr. Yannis Rouselakis',
+    name: 'Yannis Rouselakis, Ph.D.',
     jobTitle: 'Senior Cryptographic Developer, NTT Research',
     websiteUrl: 'https://y.rouselakis.com',
     description: "Passionate cryptographer and software developer currently contributing as a member of the Technology Promotion Group at NTT Research. Within this dynamic collective, our primary focus revolves around advancing and promoting Attribute-Based Encryption (ABE), a cutting-edge field that holds the key to transforming the landscape of secure data transmission.",
